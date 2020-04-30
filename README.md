@@ -5,11 +5,10 @@ JSON Web Token Authentication Example
 
 ```npm install --save-dev nodemon```
 
-Run ```node```
-Run ```require('crypto').randomBytes(64).toString('hex')```
+Create values for ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET by running
 
-Save a unique value for ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET
-
+```node```
+```require('crypto').randomBytes(64).toString('hex')```
 
 Start servers:
 ```npm run devStart```
