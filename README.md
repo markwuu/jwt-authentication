@@ -7,7 +7,7 @@ Download dependencies
 
 2. ```npm install --save-dev nodemon```
 
-Create values for ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET by running
+Create and save values for ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET in an .env file by running
 
 3. ```node```
 
