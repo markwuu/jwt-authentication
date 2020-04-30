@@ -29,12 +29,10 @@ login with username will respond back with an [access token] & [refresh token]
 **GET /posts**
 
 sends [access token] with request to match [ACCESS_TOKEN_SECRET] in jwt verify function
-======
 
 **DELETE /logout**
 
 sends [refresh token] and deletes it from storage
-======
 
 **POST /token**
 
