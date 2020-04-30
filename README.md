@@ -1,6 +1,8 @@
 # JSON Web Token Authentication
 JSON Web Token Authentication Example
 
+Download dependencies
+
 1. ```npm install dotenv express jsonwebtoken```
 
 2. ```npm install --save-dev nodemon```
