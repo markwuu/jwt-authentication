@@ -25,7 +25,6 @@
 **POST /login**
 
 login with username will respond back with an [access token] & [refresh token]
-======
 
 **GET /posts**
 
