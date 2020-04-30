@@ -17,3 +17,6 @@
 
 5. ```npm run devStart```
 6. ```npm run devStartAuth```
+
+
+## API Documentation
