@@ -21,3 +21,15 @@
 
 
 ## API Documentation
+
+POST /login
+login with username will respond back with an [access token] & [refresh token]
+
+GET /posts
+sends [access token] with request to match [ACCESS_TOKEN_SECRET] in jwt verify function
+
+DELETE /logout
+sends [refresh token] and deletes it from storage
+
+POST /token
+sends [refresh token] and receives a new [access token] using user + [ACCESS_TOKEN_SECRET]
