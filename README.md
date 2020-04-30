@@ -8,6 +8,7 @@ JSON Web Token Authentication Example
 Create values for ACCESS_TOKEN_SECRET and REFRESH_TOKEN_SECRET by running
 
 ```node```
+
 ```require('crypto').randomBytes(64).toString('hex')```
 
 Start servers:
